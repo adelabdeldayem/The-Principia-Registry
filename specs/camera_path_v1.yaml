@@ -1,0 +1,11 @@
+spec_type: CinematicConstraint
+id: dayem_oner_standard
+parameters:
+  path_type: deterministic_spline
+  interpolation: linear_temporal_lock
+  velocity_drift_tolerance: 0.0001
+  focal_mapping:
+    start_depth: 0.2m  # Macro eye-detail
+    end_depth: infinity # Stratospheric wide
+    transition_curve: ease-in-out
+  stabilization_protocol: 1.0_constant
